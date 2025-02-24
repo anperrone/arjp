@@ -1,0 +1,22 @@
+[package]
+name = "arjp"
+version = "0.1.0"
+edition = "2021"
+description = "Another Rust JSON Parser - A high-performance JSON parsing library with SIMD optimizations"
+authors = ["Antonio Perrone anperrone@gmail.com"]
+license = "MIT"
+repository = "https://github.com/anperrone/arjp"
+homepage = "https://github.com/anperrone/arjp"
+keywords = ["json", "parser", "simd", "rust"]
+categories = ["parsing", "data-structures", "json"]
+
+[dev-dependencies]
+criterion = "0.5"
+serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
+
+
+
+[[bench]]
+name = "arjp_bench"
+harness = false
+
