@@ -147,4 +147,4 @@ cargo bench --no-run # Downloads dependencies
 cargo bench
 ```
 
-Benchmarks are defined in `benches/arjp_bench.rs` and measure parsing performance for various JSON inputs.
+Benchmarks are defined in `benches/arjp_bench.rs` and measure parsing performance processing a 32MB JSON file (`data/github.json`)
