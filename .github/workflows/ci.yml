@@ -101,7 +101,7 @@ jobs:
 
   release:
     needs: [build, test, bench]
-    if: github.event_name == 'release' && github.event.action == 'published' # Solo su release pubblicati
+    if: github.event_name == 'release' && github.event.action == 'published'
     runs-on: ubuntu-latest
 
     steps:
