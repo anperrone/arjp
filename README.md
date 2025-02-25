@@ -107,8 +107,8 @@ cargo test
 ### Ensure code style and quality:
 
 ```bash
-cargo fmt # Format the code
-cargo clippy # Run lint checks
+cargo fmt
+cargo clippy
 ```
 
 ### Code Coverage
@@ -138,7 +138,7 @@ Benchmarks are included using the `criterion` crate. To run them:
 1. Install dependencies:
 
 ```bash
-cargo bench --no-run # Downloads dependencies
+cargo bench --no-run
 ```
 
 2. Execute benchmarks:
